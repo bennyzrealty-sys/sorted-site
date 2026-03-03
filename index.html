@@ -297,7 +297,7 @@ section { padding: 4rem 2rem; }
 .marquee-wrapper::before { left: 0; background: linear-gradient(to right, var(--cream), transparent); }
 .marquee-wrapper::after { right: 0; background: linear-gradient(to left, var(--cream), transparent); }
 .marquee-track {
-  display: flex; gap: 1.5rem; animation: marquee 60s linear infinite;
+  display: flex; gap: 1.5rem; animation: marquee 120s linear infinite;
   width: max-content;
 }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
@@ -871,7 +871,7 @@ footer .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex
     <a href="/pcc.html">PCC</a>
   </div>
   <p>© 2026 Homeberry AI Solutions Ltd · Trading as Sorted · Sheffield, UK</p>
-  <p>WhatsApp: <a href="https://wa.me/447352674636">+44 7352 674636</a> · Email: <a href="mailto:info@homeberry.ai">info@homeberry.ai</a></p>
+  <p>WhatsApp: <a href="https://wa.me/447352674636">+44 7352 674636</a> · Email: <a href="/cdn-cgi/l/email-protection#88e1e6eee7c8e0e7e5edeaedfafaf1a6e9e1"><span class="__cf_email__" data-cfemail="a9c0c7cfc6e9c1c6c4cccbccdbdbd087c8c0">[email&#160;protected]</span></a></p>
 </footer>
 
 <!-- WHATSAPP FLOAT -->
@@ -879,7 +879,7 @@ footer .footer-links { display: flex; justify-content: center; gap: 1.5rem; flex
   <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </a>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 // FAQ toggles
 document.querySelectorAll('.faq-q').forEach(q => {
   q.addEventListener('click', () => {
@@ -887,23 +887,45 @@ document.querySelectorAll('.faq-q').forEach(q => {
   });
 });
 
-// Testimonials marquee
+// Testimonials marquee — all 37 original client testimonials
 const testimonials = [
-  { quote: "Sorted did our baby's birth registration in 2 days. WhatsApp-only, zero stress. Half the price of London agents.", name: "Rahul & Sneha", loc: "London" },
-  { quote: "Tried Form I myself three times — kept getting errors. Sorted knew exactly how the portal works. Done same day.", name: "Priya B.", loc: "Birmingham" },
-  { quote: "Being in Sheffield, I couldn't find anyone locally. Sorted is right here and charged fairly. Everything on WhatsApp.", name: "Meera R.", loc: "Sheffield" },
-  { quote: "Applied for OCI through Sorted after getting British citizenship. They handled the ociservices.gov.in form perfectly. Card arrived in 6 weeks.", name: "Ajay K.", loc: "London" },
-  { quote: "OCI photo requirements are very specific — 51×51mm with white background. Sorted resized everything properly. Small thing, huge frustration saved.", name: "Lakshmi T.", loc: "Cambridge" },
-  { quote: "My passport was expiring and the BLS website is a nightmare. Sorted walked me through every step. New passport in three weeks.", name: "Vivek N.", loc: "Sheffield" },
-  { quote: "Could never find BLS appointment slots. Sorted knew exactly when new ones open and booked mine within a day.", name: "Kiran M.", loc: "Liverpool" },
-  { quote: "Parents needed a visiting visa. The application was overwhelming. Sorted prepared the entire package. Approved first attempt.", name: "Sreeja S.", loc: "Bristol" },
-  { quote: "London agents quoted £250+ for Form I. Sorted charges a fraction and the service was just as professional.", name: "Vinod M.", loc: "Newcastle" },
-  { quote: "Needed Form I + passport + OCI for our newborn. Sorted did all three seamlessly. One team, zero stress.", name: "Deepa P.", loc: "Swindon" },
-  { quote: "Still had an old PIO card from 2008. Sorted converted it to OCI quickly — didn't even know I needed to.", name: "Geeta S.", loc: "Oxford" },
-  { quote: "Family emergency — needed tatkal passport urgently. Sorted got the appointment and new passport in under two weeks.", name: "Manoj S.", loc: "Bradford" },
-  { quote: "My wife is British. Spouse OCI has extra requirements. Sorted knew exactly what additional docs were needed. Approved first time.", name: "James & Ananya", loc: "Bath" },
-  { quote: "Lost my old Indian passport years ago — thought I couldn't get OCI without it. Sorted found a way using my surrender certificate.", name: "Hari N.", loc: "Swansea" },
-  { quote: "Sorted helped us get the 5-year multi-entry visa instead of single entry. Saved money for years to come. Smart advice.", name: "Sarah & Anil", loc: "Norwich" },
+  { quote: "Our daughter was born in London and we had no idea how to register her as Indian. The portal is confusing. Sorted did everything — we just sent passport photos on WhatsApp and it was done in 2 days.", name: "Rahul & Sneha", loc: "London", img: "clients/rahul-sneha.jpg" },
+  { quote: "Tried filling Form I myself three times — kept getting errors on the portal. Sorted knew exactly how the system works. Clean submission, MHA file number received same day.", name: "Priya B.", loc: "Birmingham", img: "clients/priya-b.jpg" },
+  { quote: "The government portal kept timing out and losing my data. After the third attempt I gave up and found Sorted. They completed it in one go. Wish I'd found them sooner.", name: "Renjith D.", loc: "Coventry", img: "clients/renjith-d.jpg" },
+  { quote: "Being in Sheffield, I couldn't find anyone locally. Most agents are in London and charge double. Sorted is right here and charged fairly. Everything done on WhatsApp — absolutely brilliant.", name: "Meera R.", loc: "Sheffield", img: "clients/meera-r.jpg" },
+  { quote: "My first Form I was rejected because of a photo size issue. Sorted resubmitted correctly — they knew exactly what format the portal requires. Should have come to them first.", name: "Arun G.", loc: "Glasgow", img: "clients/arun-g.jpg" },
+  { quote: "London agents were quoting £250+ for Form I. Sorted charges a fraction and the service was just as professional. Everything done on WhatsApp — doesn't matter that I'm in Newcastle.", name: "Vinod M.", loc: "Newcastle", img: "clients/vinod-m.jpg" },
+  { quote: "Had no clue what the MHA file number was. Sorted explained the whole process, submitted our Form I, and sent us the file number same evening. Clear communication throughout.", name: "Jinu & Mini", loc: "Nottingham", img: "clients/jinu-mini.jpg" },
+  { quote: "Our son is 3 and we never registered his birth. Panicked when we realised it's needed for his Indian passport. Sorted handled the late registration including the affidavit. No judgement, just got it done.", name: "Deepak R.", loc: "Cardiff", img: "clients/deepak-r.jpg" },
+  { quote: "The High Commission visit was my biggest worry. Sorted sent a detailed guide — exactly what documents to carry, which counter to go to, even parking tips. In and out in 40 minutes.", name: "Anitha & Praveen", loc: "Reading", img: "clients/anitha-praveen.jpg" },
+  { quote: "Wasn't sure whether I needed the long birth certificate or the extract. Sorted gave me a clear WhatsApp checklist within minutes of messaging them. No confusion, no back-and-forth.", name: "Divya V.", loc: "Derby", img: "clients/divya-v.jpg" },
+  { quote: "Living in Manchester, I assumed I'd need a London-based agent. Sorted works entirely on WhatsApp so location doesn't matter. Faster and cheaper than the London options I was quoted.", name: "Sanjay A.", loc: "Manchester", img: "clients/sanjay-a.jpg" },
+  { quote: "Confused about dual citizenship rules for our newborn. Sorted explained that India doesn't allow dual citizenship but you can register the birth and later apply for OCI. Clear, patient guidance.", name: "Suresh & Latha", loc: "Leicester", img: "clients/suresh-latha.jpg" },
+  { quote: "Edinburgh Consulate process is slightly different from London. Sorted knew the specifics. Consulate staff even commented my file was perfectly prepared.", name: "Priyanka D.", loc: "Edinburgh", img: "clients/priyanka-d.jpg" },
+  { quote: "Needed the birth registration done before we could apply for OCI. Sorted did both — Form I first, then the OCI application. Seamless end-to-end service.", name: "Nisha K.", loc: "Southampton", img: "clients/nisha-k.jpg" },
+  { quote: "As new parents with a colicky baby, the last thing we wanted was government paperwork. Sorted was a lifesaver — just WhatsApped our documents during a feed and it was all done by next morning.", name: "Abin & Reshmi", loc: "Croydon", img: "clients/abin-reshmi.jpg" },
+  { quote: "Applied for OCI through Sorted after getting British citizenship. They handled the ociservices.gov.in form, resized my photo to the exact 51×51mm spec. Card arrived in 6 weeks.", name: "Ajay K.", loc: "London", img: "clients/ajay-k.jpg" },
+  { quote: "We needed OCI for our son before a trip to Kerala. Time was tight. Sorted submitted everything within two days and kept us updated on WhatsApp. Brilliant checklist for the VFS appointment.", name: "Anju & Joseph", loc: "Leeds", img: "clients/anju-joseph.jpg" },
+  { quote: "I was worried OCI would take months. Sorted submitted our application so cleanly that we got the card in just six weeks. They told us upfront what timeline to expect.", name: "Thomas G.", loc: "Edinburgh", img: "clients/thomas-g.jpg" },
+  { quote: "OCI photo requirements are so specific — 51mm×51mm with white background — and the portal rejects nearly everything. Sorted resized my photos properly. Small thing but saves so much frustration.", name: "Lakshmi T.", loc: "Cambridge", img: "clients/lakshmi-t.jpg" },
+  { quote: "Still had an old PIO card from 2008. Didn't realise it needed converting to OCI until immigration at Delhi questioned it. Sorted converted it quickly.", name: "Geeta S.", loc: "Oxford", img: "clients/geeta-s.jpg" },
+  { quote: "Got a new British passport and forgot to update my OCI. Nearly got denied boarding to India! Sorted did the re-issue in time for my rescheduled flight. Lifesaver.", name: "Rajesh K.", loc: "Wolverhampton", img: "clients/rajesh-k.jpg" },
+  { quote: "My wife is British with no Indian background. Spouse OCI has extra requirements — Sorted knew exactly which additional documents were needed. Application approved first time.", name: "James & Ananya", loc: "Bath", img: "clients/james-ananya.jpg" },
+  { quote: "Lost my old Indian passport years ago — thought I couldn't get OCI without it. Sorted found a way using my surrender certificate. Persistent and knowledgeable team.", name: "Hari N.", loc: "Swansea", img: "clients/hari-n.jpg" },
+  { quote: "Had been putting off OCI for years because the process seemed overwhelming. Sorted made it feel like nothing — I just sent documents on WhatsApp and they handled everything.", name: "Smitha M.", loc: "Milton Keynes", img: "clients/smitha-m.jpg" },
+  { quote: "Compared prices from five different OCI agents. Sorted was the most affordable for full service. Some charge £250+ and don't even handle photo resizing. Best value by far.", name: "Binu J.", loc: "Luton", img: "clients/binu-j.jpg" },
+  { quote: "My passport was expiring and I kept putting it off because the BLS website is a nightmare. Sorted walked me through every step. New passport arrived in three weeks.", name: "Vivek N.", loc: "Sheffield", img: "clients/vivek-n.jpg" },
+  { quote: "Could never find available slots on BLS — always fully booked. Sorted knew exactly when new slots open up and booked mine within a day. Done and dusted in under a month.", name: "Kiran M.", loc: "Liverpool", img: "clients/kiran-m.jpg" },
+  { quote: "Needed to change my surname after getting married. Documentation requirements were different from a simple renewal. Sorted knew exactly which forms and affidavits were required.", name: "Pooja N.", loc: "Derby", img: "clients/pooja-n.jpg" },
+  { quote: "Our daughter needed her first Indian passport after Form I. Sorted handled the full chain — birth registration then passport — seamlessly. Two complex processes, one team, zero stress.", name: "Deepa P.", loc: "Swindon", img: "clients/deepa-p.jpg" },
+  { quote: "Family emergency in India — needed my passport renewed urgently. Sorted got me a tatkal appointment and the new passport in under two weeks. Compassionate and fast when it mattered most.", name: "Manoj S.", loc: "Bradford", img: "clients/manoj-s.jpg" },
+  { quote: "My passport went through the washing machine. The re-issue process needs extra documentation. Sorted handled it all including advising on the police report.", name: "Revathi T.", loc: "Aberdeen", img: "clients/revathi-t.jpg" },
+  { quote: "My parents needed a visiting visa. The application was overwhelming — invitation letters, financial proofs, the lot. Sorted prepared the entire package. Visa approved on first attempt.", name: "Sreeja S.", loc: "Bristol", img: "clients/sreeja-s.jpg" },
+  { quote: "Our son has a British passport and needed a visa to visit grandparents. Rules around minor visas were confusing. Sorted prepared everything perfectly. Smooth entry at Mumbai airport.", name: "Nikhil & Reshma", loc: "Milton Keynes", img: "clients/nikhil-reshma.jpg" },
+  { quote: "We travel to India twice a year. Sorted helped us get the 5-year multiple entry visa instead of the single entry one I was about to apply for. Saved us money for years to come.", name: "Sarah & Anil", loc: "Norwich", img: "clients/sarah-anil.jpg" },
+  { quote: "Needed a business visa for a conference in Bangalore. Extra documentation compared to tourist visa. Sorted drafted everything perfectly.", name: "Kavitha P.", loc: "Slough", img: "clients/kavitha-p.jpg" },
+  { quote: "Was about to get an e-visa for a 3-week trip. Sorted advised a regular 1-year visa instead since I visit often. Better value. Smart advice.", name: "Rohit M.", loc: "Belfast", img: "clients/rohit-m.jpg" },
+  { quote: "Parents visiting from Kerala for baby's first birthday. The invitation letter requirements were unclear. Sorted drafted the perfect letter and assembled the complete package. Visa approved in 5 days.", name: "Fathima A.", loc: "Watford", img: "clients/fathima-a.jpg" },
 ];
 
 const track = document.getElementById('marqueeTrack');
@@ -914,6 +936,7 @@ allTestimonials.forEach(t => {
       <div class="stars">★★★★★</div>
       <div class="quote">"${t.quote}"</div>
       <div class="author">
+        <img src="${t.img}" alt="${t.name}" loading="lazy">
         <div class="author-info">
           <div class="name">${t.name}</div>
           <div class="location">${t.loc} · Verified</div>
@@ -929,13 +952,4 @@ const observer = new IntersectionObserver(entries => {
       e.target.querySelectorAll('.number').forEach(el => {
         const text = el.textContent;
         el.style.opacity = '0';
-        setTimeout(() => { el.style.opacity = '1'; el.style.transition = 'opacity 0.5s'; }, 200);
-      });
-    }
-  });
-}, { threshold: 0.5 });
-document.querySelectorAll('.trust-bar').forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
+        s
