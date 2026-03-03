@@ -1,0 +1,59 @@
+# Sorted by Homeberry AI Solutions
+
+> UK's most affordable NRI document service. 14 services from £29. Based in Sheffield, serving all UK via WhatsApp.
+
+Sorted helps Indian families living in the UK with essential document services including birth registration (Form I), OCI cards, Indian passport renewal, visiting visas, surrender of Indian passport, PAN cards, police clearance certificates, and more. Everything is handled via WhatsApp — clients send document photos, we complete all online forms and government portal submissions, and they visit VFS or the High Commission with everything prepared.
+
+## Services and Pricing
+
+- Baby Birth Registration (Form I): £99 — Register UK-born baby as Indian citizen on indiancitizenshiponline.nic.in
+- OCI Card Application: £149 — Lifetime visa to India, form filling on ociservices.gov.in, 51×51mm photo resizing, VFS guidance
+- Indian Passport Renewal: £99 — Standard renewal, name change, child's first passport, tatkal urgent, BLS appointment booking
+- Indian Visiting Visa: £129 — Tourist visa, parents visiting from India, business visa, e-visa, 5-year multi-entry
+- Surrender of Indian Passport: £79 — Required before OCI if you have British citizenship
+- Surrender + OCI Bundle: £199 — Complete new British citizen package
+- NRI PAN Card: £69 — Form 49A/49AA for Indian bank accounts, property, investments
+- Police Clearance Certificate: £79 — PCC from India for emigration or foreign employment
+- OCI for Spouse: £129 — For non-Indian spouse married minimum 2 years
+- PIO to OCI Conversion: £99 — Convert old PIO card to OCI
+- OCI Update/Renewal: £49 — Update OCI after new UK passport or turning 20
+- Document Attestation/Apostille: £89 — FCDO legalisation and HCI counter-attestation
+- NRI Certificate: £49 — For child's admission in Indian colleges under NRI quota
+- Life Certificate for Pension: £29 — Annual Jeevan Pramaan for Indian pensioners in UK
+
+## Family Bundles
+
+- New British Citizen Bundle: £249 (Surrender + OCI + PAN Card, save £48)
+- New Baby Complete Bundle: £279 (Form I + Passport + OCI, save £68)
+- Family Visit Bundle: £229 (2× Visiting Visa, save £29)
+- Family OCI Bundle: £499 (4× OCI applications, save £97)
+
+## Key Facts
+
+- 200+ applications completed
+- 98% first-time approval rate
+- 24-hour average turnaround
+- 4.9-star average rating
+- Cheapest prices vs all UK competitors (Matrix Solutions, Reload Internet, Visament, etc.)
+- Government and VFS fees are separate and paid by client at appointment
+- Payments via Stripe (credit/debit card)
+- Languages: English, Hindi, Malayalam
+
+## Contact
+
+- WhatsApp: +44 7352 674636
+- Email: info@homeberry.ai
+- Website: https://homeberry.ai
+- Location: Sheffield, South Yorkshire, UK (serving all UK via WhatsApp)
+- Company: Homeberry AI Solutions Ltd
+
+## Pages
+
+- [Home](https://homeberry.ai/)
+- [Form I Birth Registration](https://homeberry.ai/form-i.html)
+- [OCI Card Application](https://homeberry.ai/oci.html)
+- [Indian Passport Renewal](https://homeberry.ai/passport.html)
+- [Indian Visiting Visa](https://homeberry.ai/visa.html)
+- [Surrender of Indian Passport](https://homeberry.ai/surrender.html)
+- [NRI PAN Card](https://homeberry.ai/pan-card.html)
+- [Police Clearance Certificate](https://homeberry.ai/pcc.html)
